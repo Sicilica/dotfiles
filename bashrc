@@ -136,3 +136,7 @@ function git_branch {
 }
 LAMBDA=$'\xce\xbb'
 PS1="\n\[$COLOR_GREEN\]\w \[\$(git_color)\]\$(git_branch)\n\[$COLOR_GRAY\]$LAMBDA\[$COLOR_RESET\] "
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
