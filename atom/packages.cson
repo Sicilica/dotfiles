@@ -1,0 +1,4 @@
+packages: [
+  "minimap"
+  "package-sync"
+]

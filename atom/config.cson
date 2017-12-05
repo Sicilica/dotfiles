@@ -1,0 +1,41 @@
+"*":
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+  core:
+    audioBeep: false
+    autoHideMenuBar: true
+    closeDeletedFileTabs: true
+    closeEmptyWindows: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "node_modules"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "C:\\Users\\sicilica\\Documents\\git"
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 18
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    zoomFontWhenCtrlScrolling: false
+  "exception-reporting":
+    userId: "9ce198f5-591a-4eaa-9e96-8d33a7911f55"
+  "line-ending-selector":
+    defaultLineEnding: "LF"
+  minimap:
+    displayPluginsControls: false
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false

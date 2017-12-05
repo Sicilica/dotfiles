@@ -1,0 +1,13 @@
+'body':
+  'ctrl-+': 'unset!'
+  'ctrl--': 'unset!'
+  'ctrl-=': 'unset!'
+  'ctrl-_': 'unset!'
+  'ctrl-tab ^ctrl': 'unset!'
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-shft-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab': 'pane:show-previous-item'
+'.platform-win32 atom-text-editor':
+  'ctrl-shft-L': 'editor:split-selections-into-lines'
+'.platform-win32':
+  'ctrl-t': 'application:new-file'
